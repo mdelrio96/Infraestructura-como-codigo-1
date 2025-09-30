@@ -26,7 +26,7 @@ La infraestructura incluye:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/mdelrio96/Infraestructura-como-codigo-1.git
-cd cd Infraestructura-como-codigo-1/Prueba1/
+cd Infraestructura-como-codigo-1/Prueba1/
 ```
 
 ### 2. Inicializar Terraform
