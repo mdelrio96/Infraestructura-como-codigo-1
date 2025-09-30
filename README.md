@@ -34,7 +34,7 @@ El objetivo de este repositorio es centralizar y documentar los avances, evaluac
 - **Terraform**  
 - **AWS CLI**  
 - **Git y Github**
-- **   
+
 
 ---
 
