@@ -1,0 +1,33 @@
+# Archivo de ejemplo para variables de Terraform
+# Copia este archivo como terraform.tfvars y modifica los valores según tus necesidades
+
+# Configuración de AWS
+aws_region = "us-east-1"
+
+# Configuración del proyecto
+project_name = "cheese-factory"
+
+# Configuración de instancias EC2
+instance_count = 3
+instance_type  = "t2.micro"
+
+# AMI de Amazon Linux 2 (actualizada para us-east-1)
+ami_id = "ami-0c02fb55956c7d316"
+
+# Imágenes Docker para cada tipo de queso
+docker_images = [
+  "errm/cheese:wensleydale",
+  "errm/cheese:cheddar", 
+  "errm/cheese:stilton"
+]
+
+# IMPORTANTE: Cambiar por tu IP real para acceso SSH
+my_ip = "TU_IP_PUBLICA/32"
+
+# Tags adicionales
+tags = {
+  Project   = "Cheese Factory"
+  ManagedBy = "Terraform"
+  Student   = "Tu_Nombre"
+  Course    = "Infraestructura como Código"
+}
