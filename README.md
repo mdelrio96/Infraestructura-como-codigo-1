@@ -14,7 +14,7 @@ Autor: **Marcelo del Río Minder**
 
 Aquí se irán enlazando las pruebas y trabajos realizados durante la asignatura:
 
-- [Prueba 1: Orquestación de contenedores]()  
+- [Prueba 1: Despliegue de aplicación de quesos con Terraform en AWS](https://github.com/mdelrio96/Infraestructura-como-codigo-1/tree/main/Prueba1)  
 - [Prueba 2: (pendiente)]()  
 - [Prueba 3: (pendiente)]()  
 - [Examen final]()  
