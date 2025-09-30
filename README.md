@@ -1,6 +1,6 @@
 # Infraestructura como Código I
 
-[![Repo Size](https://img.shields.io/github/repo-size/mdelrio96/Infraestructura-como-codigo-1?color=blue&label=Repo%20Size)](https://github.com/mdelrio96/Infraestructura-como-codigo-1)  
+
 [![Última Actualización](https://img.shields.io/github/last-commit/mdelrio96/Infraestructura-como-codigo-1?color=green&label=Última%20Actualización)](https://github.com/mdelrio96/Infraestructura-como-codigo-1/commits/main)  
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)](https://github.com/mdelrio96/Infraestructura-como-codigo-1)
 
