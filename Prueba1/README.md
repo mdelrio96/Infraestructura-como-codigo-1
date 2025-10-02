@@ -51,6 +51,7 @@ terraform apply
 ├── variables.tf              # Definición de variables
 ├── outputs.tf                # Outputs del despliegue
 ├── terraform.tfvars.example  # Archivo de ejemplo para variables
+├── terraform.tfvars          # Archivo para personalizar variables
 ├── user_data.sh              # Script de configuración para instancias EC2
 └── README.md                 # Este archivo
 ```

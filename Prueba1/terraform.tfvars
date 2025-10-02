@@ -1,0 +1,40 @@
+# Archivo de configuración para variables de Terraform
+# Basado en la infraestructura actual del proyecto Cheese Factory
+
+# REGION
+aws_region = "us-east-1"
+# define la región AWS donde se desplegarán los recursos.
+
+# CONFIGURACIÓN DEL PROYECTO
+project_name = "cheese-factory"
+# establece el nombre del proyecto para etiquetar los recursos.
+
+# CONFIGURACIÓN DE INSTANCIAS EC2
+instance_count = 3
+# define el número de instancias EC2 a crear.
+
+instance_type = "t2.micro"
+# define el tipo de instancia EC2 según las necesidades de CPU, RAM y presupuesto.
+
+# AMI DE AMAZON LINUX 2
+ami_id = "ami-0c02fb55956c7d316"
+# especifica el ID de la AMI de Amazon Linux 2 para las instancias.
+
+# IMÁGENES DOCKER
+docker_images = [
+  "errm/cheese:wensleydale",
+  "errm/cheese:cheddar",
+  "errm/cheese:stilton",
+]
+
+# CONFIGURACIÓN DE SEGURIDAD SSH
+my_ip = "0.0.0.0/0"
+# define la dirección CIDR que permitirá acceso SSH. Reemplaza por "TU_IP_PUBLICA/32" para seguridad.
+
+# TAGS ADICIONALES
+tags = {
+  Project   = "Cheese Factory"
+  ManagedBy = "Terraform"
+  Course    = "Infraestructura como Código"
+}
+# establece etiquetas adicionales para todos los recursos.
