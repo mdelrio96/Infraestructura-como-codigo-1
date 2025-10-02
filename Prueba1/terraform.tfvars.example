@@ -1,33 +1,40 @@
 # Archivo de ejemplo para variables de Terraform
 # Copia este archivo como terraform.tfvars y modifica los valores según tus necesidades
 
-# Configuración de AWS
+# REGION
 aws_region = "us-east-1"
+# define la región AWS donde se desplegarán los recursos.
 
-# Configuración del proyecto
+# CONFIGURACIÓN DEL PROYECTO
 project_name = "cheese-factory"
+# establece el nombre del proyecto para etiquetar los recursos.
 
-# Configuración de instancias EC2
+# CONFIGURACIÓN DE INSTANCIAS EC2
 instance_count = 3
-instance_type  = "t2.micro"
+# define el número de instancias EC2 a crear.
 
-# AMI de Amazon Linux 2 (actualizada para us-east-1)
+instance_type = "t2.micro"
+# define el tipo de instancia EC2 según las necesidades de CPU, RAM y presupuesto.
+
+# AMI DE AMAZON LINUX 2
 ami_id = "ami-0c02fb55956c7d316"
+# especifica el ID de la AMI de Amazon Linux 2 para las instancias.
 
-# Imágenes Docker para cada tipo de queso
+# IMÁGENES DOCKER
 docker_images = [
   "errm/cheese:wensleydale",
-  "errm/cheese:cheddar", 
-  "errm/cheese:stilton"
+  "errm/cheese:cheddar",
+  "errm/cheese:stilton",
 ]
 
-# IMPORTANTE: Cambiar por tu IP real para acceso SSH
-my_ip = "TU_IP_PUBLICA/32"
+# CONFIGURACIÓN DE SEGURIDAD SSH
+my_ip = "0.0.0.0/0"
+# define la dirección CIDR que permitirá acceso SSH. Reemplaza por "TU_IP_PUBLICA/32" para seguridad.
 
-# Tags adicionales
+# TAGS ADICIONALES
 tags = {
   Project   = "Cheese Factory"
   ManagedBy = "Terraform"
-  Student   = "Tu_Nombre"
   Course    = "Infraestructura como Código"
 }
+# establece etiquetas adicionales para todos los recursos.
