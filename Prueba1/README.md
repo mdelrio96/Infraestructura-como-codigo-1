@@ -1,4 +1,4 @@
-# The Cheese Factory - Infraestructura como Código
+# Evaluación I - Infraestructura como Código - Despliegue de Aplicación de Quesos con Terraform en AWS
 
 Este proyecto despliega una arquitectura web simple, escalable y segura en Amazon Web Services utilizando Terraform para "The Cheese Factory", una startup que ofrece una aplicación web para mostrar diferentes tipos de quesos.
 
@@ -26,7 +26,7 @@ La infraestructura incluye:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/mdelrio96/Infraestructura-como-codigo-1.git
-cd cd Infraestructura-como-codigo-1/Prueba1/
+cd Infraestructura-como-codigo-1/Prueba1/
 ```
 
 ### 2. Inicializar Terraform

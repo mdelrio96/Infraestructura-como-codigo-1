@@ -1,6 +1,6 @@
 # Infraestructura como Código I
 
-[![Repo Size](https://img.shields.io/github/repo-size/mdelrio96/Infraestructura-como-codigo-1?color=blue&label=Repo%20Size)](https://github.com/mdelrio96/Infraestructura-como-codigo-1)  
+
 [![Última Actualización](https://img.shields.io/github/last-commit/mdelrio96/Infraestructura-como-codigo-1?color=green&label=Última%20Actualización)](https://github.com/mdelrio96/Infraestructura-como-codigo-1/commits/main)  
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)](https://github.com/mdelrio96/Infraestructura-como-codigo-1)
 
@@ -14,7 +14,7 @@ Autor: **Marcelo del Río Minder**
 
 Aquí se irán enlazando las pruebas y trabajos realizados durante la asignatura:
 
-- [Prueba 1: Orquestación de contenedores]()  
+- [Prueba 1: Despliegue de aplicación de quesos con Terraform en AWS](https://github.com/mdelrio96/Infraestructura-como-codigo-1/tree/main/Prueba1)  
 - [Prueba 2: (pendiente)]()  
 - [Prueba 3: (pendiente)]()  
 - [Examen final]()  
@@ -34,7 +34,7 @@ El objetivo de este repositorio es centralizar y documentar los avances, evaluac
 - **Terraform**  
 - **AWS CLI**  
 - **Git y Github**
-- **   
+
 
 ---
 
